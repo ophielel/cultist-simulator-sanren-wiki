@@ -1,0 +1,395 @@
+{
+  "contemnant": {
+    "named_allies": [
+      {
+        "id": "friend.eva",
+        "label": "伊娃·霍赫施泰特",
+        "description": "伊娃·霍赫施泰特在她的的孩子们死在索比堡时一同死去了。留在世上的只剩这无法安慰的可憎之物。",
+        "aspects": {
+          "grail": 4,
+          "edge": 4,
+          "mortal": 1,
+          "friend": 1,
+          "friend.named": 1
+        },
+        "source": "content/elements/allies_named.json"
+      },
+      {
+        "id": "friend.vanja",
+        "label": "瓦尼亚·哈伊莫夫",
+        "description": "小瓦尼亚不明白妈妈和爸爸去了哪里，也不明白为什么他们不能回来接他。他非常，非常想念他们。",
+        "aspects": {
+          "winter": 4,
+          "moth": 4,
+          "mortal": 1,
+          "friend": 1,
+          "friend.named": 1
+        },
+        "source": "content/elements/allies_named.json"
+      },
+      {
+        "id": "friend.tibor",
+        "label": "蒂博尔·门格尔",
+        "description": "这位好医生的书曾在一次示威中被烧焦。他们对他说他也要被烧焦——但他们承诺只烧一点。呵，“一点”。",
+        "aspects": {
+          "forge": 4,
+          "heart": 4,
+          "mortal": 1,
+          "friend": 1,
+          "friend.named": 1
+        },
+        "source": "content/elements/allies_named.json"
+      },
+      {
+        "id": "friend.walther",
+        "label": "瓦尔特·埃廷格神父",
+        "description": "这位太阳教会的牧师在当局施压时拒不提供无辜者的名单。他为此被政府逮捕并丢进集中营。他从不后悔这么做。",
+        "aspects": {
+          "lantern": 4,
+          "knock": 4,
+          "mortal": 1,
+          "friend": 1,
+          "friend.named": 1
+        },
+        "source": "content/elements/allies_named.json"
+      }
+    ],
+    "supernatural": [
+      {
+        "id": "contemnant.mentor",
+        "label": "#PREVIOUSCHARACTERNAME#",
+        "description": "一个衣衫褴褛的利比亚人，带着残忍的笑容——此人是我在索比堡那一年间的折磨者，也是老师。其他人只把他当作一个外国雇佣兵，但我知道并非如此。此人已将有关其本质的知识向我展现。",
+        "aspects": {
+          "friend": 1,
+          "foe": 1,
+          "edgelong": 1
+        },
+        "source": "content/elements/contemnant.json"
+      },
+      {
+        "id": "klei",
+        "label": "<i>持钥人</i>",
+        "description": "“是，是，白城现已是一片废墟。我很清楚。这可不是我第一次站出来对抗历史的撼动了。我留在这里因为我需要你。而现在你找到我了。”",
+        "aspects": {
+          "local": 1,
+          "otherworldly": 1
+        },
+        "source": "content/elements/contemnant.json"
+      },
+      {
+        "id": "friend.sergei",
+        "label": "食铁者",
+        "description": "对立双刃的另一半现已死去，我很好奇现在是什么支撑着他活着。是战争？是恐惧？还是对死得其所的渴望？或许这头狼只是在单纯的延长其最后的一息。但即使是将死之身，这裂分之狼的长生者仍几乎与他的全盛期一般凶猛。",
+        "aspects": {
+          "friend": 1,
+          "edgelong": 1,
+          "edge": 20,
+          "winter": 20,
+          "friend.immortal": 1,
+          "local": 1
+        },
+        "source": "content/elements/contemnant.json"
+      },
+      {
+        "id": "friend.cross",
+        "label": "持矛盾者格尔凡戈",
+        "description": "石之子嗣、枭之士兵、高傲的淆翅族仍在历史的这一侧活动的最后一人。她并不喜爱人类，但她仍挥舞翅膀、鳞片、以及那尖锐的刺针与我合击，只因我们均为一个共同敌人的死亡而斗争。",
+        "aspects": {
+          "friend": 1,
+          "otherworldly": 1,
+          "edge": 20,
+          "knock": 12,
+          "moth": 12,
+          "friend.immortal": 1,
+          "local": 1
+        },
+        "source": "content/elements/contemnant.json"
+      },
+      {
+        "id": "foe.marinette",
+        "label": "玛丽内特",
+        "description": "“<sprite name=way>。<sprite name=edge>。<sprite name=grail>。”",
+        "aspects": {
+          "otherworldly": 1,
+          "needsedge": 30,
+          "foe.lethal": 1,
+          "foe.braced": 1,
+          "long.blocker": 1,
+          "foe.huntingparty": 1,
+          "marinette.marker": 1
+        },
+        "source": "content/elements/foes_contemnant.json"
+      }
+    ]
+  },
+  "proterant": {
+    "named_allies": [
+      {
+        "id": "friend.fiorenza.local",
+        "label": "菲奥伦扎·斯科桑蒂",
+        "description": "一位善良且富有活力的年轻女士，她将她的声音借给了四面楚歌的<i>抵抗运动</i>的战士们。她曾是学生，但现为士兵。",
+        "aspects": {
+          "lantern": 4,
+          "heart": 4,
+          "friend": 1,
+          "mortal": 1,
+          "named.local": 1
+        },
+        "source": "content/elements/allies.json"
+      },
+      {
+        "id": "friend.lorenzo.local",
+        "label": "洛伦佐·巴斯",
+        "description": "一位老练的厨师，也是一位外科医师代理。作为后者，他可堪一用；但实际上，他的<i>红烩牛肉</i>比他的手术刀救下了更多人。",
+        "aspects": {
+          "forge": 4,
+          "grail": 4,
+          "friend": 1,
+          "mortal": 1,
+          "named.local": 1
+        },
+        "source": "content/elements/allies.json"
+      },
+      {
+        "id": "friend.padre.local",
+        "label": "鲁杰罗神父",
+        "description": "一位神父，老兵……或许还是除灵师？这位好神父在上一次大战期间还只是牧师，在那时他发誓要除尽他所找到的一切邪恶——世界之内的如此，世界之外的亦然。",
+        "aspects": {
+          "winter": 4,
+          "knock": 4,
+          "friend": 1,
+          "mortal": 1,
+          "named.local": 1
+        },
+        "source": "content/elements/allies.json"
+      },
+      {
+        "id": "friend.daria.local",
+        "label": "达莉亚·科尔西诺",
+        "description": "一位小有名气的游击队员，那些见过她战斗的人尊称她为“剃刀女士”。在这场战争之前，她或许是理发师，或许是囚犯，或许是杀人者，但她从未肯定任何猜测。",
+        "aspects": {
+          "moth": 4,
+          "edge": 4,
+          "friend": 1,
+          "mortal": 1,
+          "named.local": 1
+        },
+        "source": "content/elements/allies.json"
+      }
+    ],
+    "supernatural": [
+      {
+        "id": "foe.orcul",
+        "label": "奥库尔",
+        "description": "厄客德娜的子嗣分为两种：“被生出的”和“被赢取的”。巨大的奥库尔——閃般的恐怖、咬牙切齿者、半岛的野兽——属于前者。人们只能猜测厄客德娜究竟是和何等怪物配种，才能诞下如此狂暴的子嗣。它不会轻易被打倒。",
+        "aspects": {
+          "otherworldly": 1,
+          "foe.resilient": 1,
+          "foe.armoured": 1,
+          "needsedge": 28,
+          "uqbrood": 1,
+          "guard": 1
+        },
+        "source": "content/elements/enemies.json"
+      },
+      {
+        "id": "foe.boccastrano",
+        "label": "波卡斯特拉诺",
+        "description": "厄客德娜的子嗣分为两种：“被生出的”和“被赢取的”。狡猾的波卡斯特拉诺——夜行的猎手，吸食骨髓者，狮子匠弃儿——属于后者。他或许曾是那稀少的，被称作“餮猊”的物种中的一员，但那物种现已不复存在：蒙受耻辱；被击败；并被吞噬。",
+        "aspects": {
+          "otherworldly": 1,
+          "foe.resilient": 1,
+          "foe.elusive": 1,
+          "needsedgemoth": 6,
+          "uqbrood": 1,
+          "guarded": 1
+        },
+        "source": "content/elements/enemies.json"
+      },
+      {
+        "id": "proterant.mentor",
+        "label": "#PREVIOUSCHARACTERNAME#",
+        "description": "一位眼中有火，得意的笑着的利比亚人。其他人只把他当作一个游击队领队，但我知道并非如此。此人已将有关其本质的知识托付于我。",
+        "aspects": {
+          "friend": 1,
+          "edgelong": 1
+        },
+        "source": "content/elements/proterant.json"
+      },
+      {
+        "id": "friend.wilhelm",
+        "label": "战争制造者",
+        "description": "一位身材高大、面带愉悦的德国人，身着普鲁士少校那古典的制服。他随身并未携带武器——看上去他不会用武器使自己蒙羞。他的拳头无疑如锤子一般精准且不息。",
+        "aspects": {
+          "edgelong": 1,
+          "local": 1
+        },
+        "source": "content/elements/proterant.json"
+      },
+      {
+        "id": "friend.maccabee",
+        "label": "“锤子”犹大",
+        "description": "塞琉古人屠杀者；反抗者之神；狮子匠的具名斗士。我不知道吾友是如何与一位具名者搞好关系的，但无论如何，我没有时间用于考虑这个问题。我最好快点开口。",
+        "aspects": {
+          "local": 1,
+          "otherworldly": 1
+        },
+        "source": "content/elements/proterant.json"
+      },
+      {
+        "id": "friend.echidna",
+        "label": "厄客德娜",
+        "description": "怪物之母已今非昔比。有什么东西以爪撕裂她的腹部，流出的内脏冒着热气并如黑红的蛇般不断蠕动。她的嘴边泛着血光。“无需烦恼，亲爱的，”她以意外平静的声音说，“这不是我的血。”",
+        "aspects": {
+          "local": 1,
+          "otherworldly": 1
+        },
+        "source": "content/elements/proterant.json"
+      }
+    ]
+  },
+  "obdurant": {
+    "named_allies": [
+      {
+        "id": "friend.yuri.local",
+        "label": "尤里·谢连科准尉",
+        "description": "一位态度轻蔑的<i>政委</i>，一股狂热充斥着他的脑海。",
+        "aspects": {
+          "lantern": 4,
+          "edge": 4,
+          "friend": 1,
+          "mortal": 1,
+          "named.local": 1
+        },
+        "source": "content/elements/friends_named.json"
+      },
+      {
+        "id": "friend.konstantin.local",
+        "label": "康斯坦丁·伊斯梅洛夫医生",
+        "description": "一位战地外科医生，其品行存疑，但水平毋庸置疑。",
+        "aspects": {
+          "knock": 4,
+          "heart": 4,
+          "friend": 1,
+          "mortal": 1,
+          "named.local": 1
+        },
+        "source": "content/elements/friends_named.json"
+      },
+      {
+        "id": "friend.iosef.local",
+        "label": "约瑟夫·沃洛金",
+        "description": "一位瘦长，结实的<i>惩戒营</i>幸存者，曾被用光荣的兵役惩罚。",
+        "aspects": {
+          "moth": 4,
+          "grail": 4,
+          "friend": 1,
+          "mortal": 1,
+          "named.local": 1
+        },
+        "source": "content/elements/friends_named.json"
+      },
+      {
+        "id": "friend.nikolai.local",
+        "label": "尼古拉·别利亚耶夫",
+        "description": "一位孤僻的，面无表情的炮兵，他严格地分配着说出的话语。",
+        "aspects": {
+          "forge": 4,
+          "winter": 4,
+          "friend": 1,
+          "mortal": 1,
+          "named.local": 1
+        },
+        "source": "content/elements/friends_named.json"
+      },
+      {
+        "id": "friend.fiorenza.local",
+        "label": "菲奥伦扎·斯科桑蒂",
+        "description": "一位善良且富有活力的年轻女士，她将她的声音借给了四面楚歌的<i>抵抗运动</i>的战士们。她曾是学生，但现为士兵。",
+        "aspects": {
+          "lantern": 4,
+          "heart": 4,
+          "friend": 1,
+          "mortal": 1,
+          "named.local": 1
+        },
+        "source": "content/elements/proterant_framework_elements.json"
+      },
+      {
+        "id": "friend.lorenzo.local",
+        "label": "洛伦佐·巴斯",
+        "description": "一位老练的厨师，也是一位外科医师代理。作为后者，他可堪一用；但实际上，他的<i>红烩牛肉</i>比他的手术刀救下了更多人。",
+        "aspects": {
+          "forge": 4,
+          "grail": 4,
+          "friend": 1,
+          "mortal": 1,
+          "named.local": 1
+        },
+        "source": "content/elements/proterant_framework_elements.json"
+      },
+      {
+        "id": "friend.padre.local",
+        "label": "鲁杰罗神父",
+        "description": "一位神父，老兵……或许还是除灵师？这位好神父在上一次大战期间还只是牧师，在那时他发誓要除尽他所找到的一切邪恶——世界之内的如此，世界之外的亦然。",
+        "aspects": {
+          "winter": 4,
+          "knock": 4,
+          "friend": 1,
+          "mortal": 1,
+          "named.local": 1
+        },
+        "source": "content/elements/proterant_framework_elements.json"
+      },
+      {
+        "id": "friend.daria.local",
+        "label": "达莉亚·科尔西诺",
+        "description": "一位小有名气的游击队员，那些见过她战斗的人尊称她为“剃刀女士”。在这场战争之前，她或许是理发师，或许是囚犯，或许是杀人者，但她从未肯定任何猜测。",
+        "aspects": {
+          "moth": 4,
+          "edge": 4,
+          "friend": 1,
+          "mortal": 1,
+          "named.local": 1
+        },
+        "source": "content/elements/proterant_framework_elements.json"
+      }
+    ],
+    "supernatural": [
+      {
+        "id": "foe.niniame",
+        "label": "妮妮亚梅",
+        "description": "不得见之湖的女守护兽，亦是守剑人的长姐。守剑人以极大的代价在巨蛇之母要求她死去时将她带走。她不总是具有尖牙，她也不总是具有坚鳞与利爪——但她仍珍视她的幼妹。",
+        "aspects": {
+          "otherworldly": 1,
+          "needsedgeknock": 10,
+          "needsedgeheart": 10,
+          "foe.resilient": 1,
+          "foe.elusive": 1,
+          "uq.niniame": 1
+        },
+        "source": "content/elements/foes.json"
+      },
+      {
+        "id": "obdurant.mentor",
+        "label": "#PREVIOUSCHARACTERNAME#",
+        "description": "一位严厉的，浑身覆满伤疤的利比亚人。其他人只把他当作一个雇佣兵领队，但我知道并非如此。此人已将有关其本质的知识托付于我。",
+        "aspects": {
+          "friend": 1,
+          "edgelong": 1
+        },
+        "source": "content/elements/obdurant.json"
+      },
+      {
+        "id": "nimiane",
+        "label": "水中的妮米亚涅",
+        "description": "残缺之剑的管理者；双生女巫的具名者，亦是双生巫女的具名者。她因反抗蚁母布下的针对古老的阿瓦隆上一条血脉的诅咒诞生。她是因为惩罚而被流放到这片湖泊的吗？还是为保证她的安全而被藏匿于此处？双子之神确实对被回避者有好感——但为什么仅是一人？为什么仅是二人？",
+        "aspects": {
+          "otherworldly": 1,
+          "local": 1
+        },
+        "source": "content/elements/obdurant.json"
+      }
+    ]
+  }
+}

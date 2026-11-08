@@ -1,0 +1,344 @@
+{
+  "contemnant": {
+    "elements": [
+      {
+        "id": "foe.duffoure",
+        "label": "Foe: Duffoure",
+        "description": null,
+        "aspects": null,
+        "source": "content/elements/aspects_contemnant.json"
+      },
+      {
+        "id": "contemnant.mentor",
+        "label": "#PREVIOUSCHARACTERNAME#",
+        "description": "一个衣衫褴褛的利比亚人，带着残忍的笑容——此人是我在索比堡那一年间的折磨者，也是老师。其他人只把他当作一个外国雇佣兵，但我知道并非如此。此人已将有关其本质的知识向我展现。",
+        "aspects": {
+          "friend": 1,
+          "foe": 1,
+          "edgelong": 1
+        },
+        "source": "content/elements/contemnant.json"
+      },
+      {
+        "id": "friend.sergei",
+        "label": "食铁者",
+        "description": "对立双刃的另一半现已死去，我很好奇现在是什么支撑着他活着。是战争？是恐惧？还是对死得其所的渴望？或许这头狼只是在单纯的延长其最后的一息。但即使是将死之身，这裂分之狼的长生者仍几乎与他的全盛期一般凶猛。",
+        "aspects": {
+          "friend": 1,
+          "edgelong": 1,
+          "edge": 20,
+          "winter": 20,
+          "friend.immortal": 1,
+          "local": 1
+        },
+        "source": "content/elements/contemnant.json"
+      },
+      {
+        "id": "friend.cross",
+        "label": "持矛盾者格尔凡戈",
+        "description": "石之子嗣、枭之士兵、高傲的淆翅族仍在历史的这一侧活动的最后一人。她并不喜爱人类，但她仍挥舞翅膀、鳞片、以及那尖锐的刺针与我合击，只因我们均为一个共同敌人的死亡而斗争。",
+        "aspects": {
+          "friend": 1,
+          "otherworldly": 1,
+          "edge": 20,
+          "knock": 12,
+          "moth": 12,
+          "friend.immortal": 1,
+          "local": 1
+        },
+        "source": "content/elements/contemnant.json"
+      },
+      {
+        "id": "duffoure.first",
+        "label": "杜弗尔",
+        "description": "“我那不肖子对你抱有很高的期望。我将确保你达不到那期望。”",
+        "aspects": {
+          "edgelong": 1,
+          "foe": 1,
+          "foe.duffoure": 1
+        },
+        "source": "content/elements/long_enemies.json"
+      },
+      {
+        "id": "duffoure",
+        "label": "杜弗尔",
+        "description": "“我那不肖子对你抱有很高的期望。我将确保你达不到那期望。”",
+        "aspects": {
+          "edgelong": 1,
+          "foe": 1,
+          "foe.duffoure": 1
+        },
+        "source": "content/elements/long_enemies.json"
+      }
+    ],
+    "selected_recipes": []
+  },
+  "proterant": {
+    "elements": [
+      {
+        "id": "proterant.mentor",
+        "label": "#PREVIOUSCHARACTERNAME#",
+        "description": "一位眼中有火，得意的笑着的利比亚人。其他人只把他当作一个游击队领队，但我知道并非如此。此人已将有关其本质的知识托付于我。",
+        "aspects": {
+          "friend": 1,
+          "edgelong": 1
+        },
+        "source": "content/elements/proterant.json"
+      },
+      {
+        "id": "friend.wilhelm",
+        "label": "战争制造者",
+        "description": "一位身材高大、面带愉悦的德国人，身着普鲁士少校那古典的制服。他随身并未携带武器——看上去他不会用武器使自己蒙羞。他的拳头无疑如锤子一般精准且不息。",
+        "aspects": {
+          "edgelong": 1,
+          "local": 1
+        },
+        "source": "content/elements/proterant.json"
+      },
+      {
+        "id": "friend.maccabee",
+        "label": "“锤子”犹大",
+        "description": "塞琉古人屠杀者；反抗者之神；狮子匠的具名斗士。我不知道吾友是如何与一位具名者搞好关系的，但无论如何，我没有时间用于考虑这个问题。我最好快点开口。",
+        "aspects": {
+          "local": 1,
+          "otherworldly": 1
+        },
+        "source": "content/elements/proterant.json"
+      },
+      {
+        "id": "duel.wilhelm.proterant",
+        "label": "战争制造者",
+        "description": "一位身材高大、面带愉悦的德国人，身着普鲁士少校那古典的制服。他作为他的敌手，大陆之敌，的代表来此。",
+        "aspects": {
+          "edgelong": 1,
+          "local": 1
+        },
+        "source": "content/elements/proterant.json"
+      },
+      {
+        "id": "duel.camilla.proterant",
+        "label": "大陆之敌",
+        "description": "一位盛气凌人的、因遍布伤痕而引人注目的女性，她身着法军军官的军服与战地披风。这就是我发起<i>狮鼠之斗</i>仪式挑战之人。",
+        "aspects": {
+          "edgelong": 1,
+          "local": 1,
+          "duel.marker": 1
+        },
+        "source": "content/elements/proterant.json"
+      }
+    ],
+    "selected_recipes": [
+      {
+        "id": "communicate.duel.continental.hint",
+        "label": "无需多言",
+        "startdescription": "<i>狮鼠之斗</i>的规则禁止决斗者在战斗结束之前有任何形式的交流。故直到我们二人之一让另一人流血之前，我不会对大陆之敌说话，她亦不会对我说话。",
+        "description": null
+      },
+      {
+        "id": "communicate.duel.warmaker",
+        "label": "狮鼠之斗",
+        "startdescription": "大陆之敌站在我的对面，战争制造者与老犹大则站在我们中间。“如狮子匠挑战安泰俄斯，”具名者开始致辞。“亦如亚历山大挑战狮子匠——我们于此见证一次伟大且荣耀的挑战。”而后则是战争制造者致辞：“在斗争之司辰的注视下，以斗争之司辰的传统律法，两位决斗者将战斗，直到有一方流血。首先受伤之人将败北。请决斗者做好准备。预备——”",
+        "description": "“开始！”"
+      },
+      {
+        "id": "communicate.camilla.aftervictory",
+        "label": "鼠胜过狮",
+        "startdescription": "大陆之敌收刀入鞘。“恭喜，”她对我微笑。“我们与斗争之司辰承认你的技巧与决意，你的力量与勇气。”在场外，战争制造者正猛烈鼓掌。老犹大看上去也很想这么做。",
+        "description": "我与我的对手握手，她倾身在我耳边低语：“现在，你已十分接近。一切目光都会集中在你身上。当那时刻到来，狮子匠赐予你他的偏爱时，我祈求你的刚毅足以承受它。”他说这话的温暖语气不像是在威胁——更像是同事之间的承诺。“现在去吧，人之杀手。你的责任每分每秒都在增大。”"
+      }
+    ]
+  },
+  "obdurant": {
+    "elements": [
+      {
+        "id": "foe.duffoure",
+        "label": "Foe: Duffoure",
+        "description": null,
+        "aspects": null,
+        "source": "content/elements/contemnant_framework_aspects.json"
+      },
+      {
+        "id": "foe.niniame",
+        "label": "妮妮亚梅",
+        "description": "不得见之湖的女守护兽，亦是守剑人的长姐。守剑人以极大的代价在巨蛇之母要求她死去时将她带走。她不总是具有尖牙，她也不总是具有坚鳞与利爪——但她仍珍视她的幼妹。",
+        "aspects": {
+          "otherworldly": 1,
+          "needsedgeknock": 10,
+          "needsedgeheart": 10,
+          "foe.resilient": 1,
+          "foe.elusive": 1,
+          "uq.niniame": 1
+        },
+        "source": "content/elements/foes.json"
+      },
+      {
+        "id": "camilla.first",
+        "label": "大陆之敌",
+        "description": "“<i>继续</i>——斩下敌人，推进战线。我还有约需赴。”",
+        "aspects": {
+          "edgelong": 1,
+          "foe": 1,
+          "foe.camilla": 1
+        },
+        "source": "content/elements/long.json"
+      },
+      {
+        "id": "wilhelm.first",
+        "label": "战争制造者",
+        "description": "“<b>懦夫！</b>前来直面我！任何死于我手的人都将如英雄般死去！”",
+        "aspects": {
+          "edgelong": 1,
+          "foe": 1,
+          "foe.wilhelm": 1
+        },
+        "source": "content/elements/long.json"
+      },
+      {
+        "id": "sergei.first",
+        "label": "食铁者",
+        "description": "“奋起反抗，逃离战场，乞求饶命——都无所谓。没有东西能从我手中拯救你们。”[食铁者有时会攻击场上的敌军，但他造成的伤口将立刻变成残疾。]",
+        "aspects": {
+          "edgelong": 1,
+          "foe": 1,
+          "foe.sergei": 1
+        },
+        "source": "content/elements/long.json"
+      },
+      {
+        "id": "camilla",
+        "label": "大陆之敌",
+        "description": "“<i>继续</i>——斩下敌人，推进战线。我还有约需赴。”",
+        "aspects": {
+          "edgelong": 1,
+          "foe": 1,
+          "foe.camilla": 1
+        },
+        "source": "content/elements/long.json"
+      },
+      {
+        "id": "wilhelm",
+        "label": "战争制造者",
+        "description": "“<b>懦夫！</b>前来直面我！任何死于我手的人都将如英雄般死去！”",
+        "aspects": {
+          "edgelong": 1,
+          "foe": 1,
+          "foe.wilhelm": 1
+        },
+        "source": "content/elements/long.json"
+      },
+      {
+        "id": "sergei",
+        "label": "食铁者",
+        "description": "“奋起反抗，逃离战场，乞求饶命——都无所谓。没有东西能从我手中拯救你们。”[食铁者有时会攻击场上的敌军，但他造成的伤口将立刻变成残疾。]",
+        "aspects": {
+          "edgelong": 1,
+          "foe": 1,
+          "foe.sergei": 1
+        },
+        "source": "content/elements/long.json"
+      },
+      {
+        "id": "obdurant.mentor",
+        "label": "#PREVIOUSCHARACTERNAME#",
+        "description": "一位严厉的，浑身覆满伤疤的利比亚人。其他人只把他当作一个雇佣兵领队，但我知道并非如此。此人已将有关其本质的知识托付于我。",
+        "aspects": {
+          "friend": 1,
+          "edgelong": 1
+        },
+        "source": "content/elements/obdurant.json"
+      },
+      {
+        "id": "nimiane",
+        "label": "水中的妮米亚涅",
+        "description": "残缺之剑的管理者；双生女巫的具名者，亦是双生巫女的具名者。她因反抗蚁母布下的针对古老的阿瓦隆上一条血脉的诅咒诞生。她是因为惩罚而被流放到这片湖泊的吗？还是为保证她的安全而被藏匿于此处？双子之神确实对被回避者有好感——但为什么仅是一人？为什么仅是二人？",
+        "aspects": {
+          "otherworldly": 1,
+          "local": 1
+        },
+        "source": "content/elements/obdurant.json"
+      },
+      {
+        "id": "friend.camilla",
+        "label": "大陆之敌",
+        "description": "一位盛气凌人的，因遍布伤痕而引人注目的女性，她身着法军军官的军服与战地披风。在本应有着右腿的地方，她有着一条铁制假腿；在本应有着左手的地方，她有着一件固定于残肢上的锐利器具。她的表情如石头般难以辨别。",
+        "aspects": {
+          "edgelong": 1,
+          "local": 1
+        },
+        "source": "content/elements/obdurant.json"
+      },
+      {
+        "id": "duel.wilhelm",
+        "label": "战争制造者",
+        "description": "一位身材高大、面带愉悦的德国人，身着普鲁士少校那古典的制服。这就是我发起<i>狮鼠之斗</i>仪式挑战之人。",
+        "aspects": {
+          "edgelong": 1,
+          "local": 1,
+          "duel.marker": 1
+        },
+        "source": "content/elements/obdurant.json"
+      },
+      {
+        "id": "duel.camilla",
+        "label": "大陆之敌",
+        "description": "一位盛气凌人的、因遍布伤痕而引人注目的女性，她身着法军军官的军服与战地披风。她作为她的敌手，战争制造者，的代表来此。",
+        "aspects": {
+          "edgelong": 1,
+          "local": 1
+        },
+        "source": "content/elements/obdurant.json"
+      },
+      {
+        "id": "duel.sergei",
+        "label": "食铁者",
+        "description": "这一次，不再有言语。食铁者带着憎恶的寂静向我们骑马冲锋。[食铁者造成的伤口将立刻变成残疾。]",
+        "aspects": {
+          "edgelong": 1,
+          "local": 1,
+          "foe.sergei": 1
+        },
+        "source": "content/elements/obdurant.json"
+      },
+      {
+        "id": "defeated.sergei",
+        "label": "食铁者",
+        "description": "老狼看上去累了。",
+        "aspects": {
+          "edgelong": 1,
+          "foe.sergei": 1,
+          "local": 1
+        },
+        "source": "content/elements/obdurant.json"
+      },
+      {
+        "id": "duel.wilhelm.proterant",
+        "label": "战争制造者",
+        "description": "一位身材高大、面带愉悦的德国人，身着普鲁士少校那古典的制服。他作为他的敌手，大陆之敌，的代表来此。",
+        "aspects": {
+          "edgelong": 1,
+          "local": 1
+        },
+        "source": "content/elements/proterant_framework_elements.json"
+      },
+      {
+        "id": "duel.camilla.proterant",
+        "label": "大陆之敌",
+        "description": "一位盛气凌人的、因遍布伤痕而引人注目的女性，她身着法军军官的军服与战地披风。这就是我发起<i>狮鼠之斗</i>仪式挑战之人。",
+        "aspects": {
+          "edgelong": 1,
+          "local": 1,
+          "duel.marker": 1
+        },
+        "source": "content/elements/proterant_framework_elements.json"
+      }
+    ],
+    "selected_recipes": [
+      {
+        "id": "communicate.wilhelm.aftervictory",
+        "label": "鼠胜过狮",
+        "startdescription": "战争制造者将双手扣在背后。“恭喜，”他对我微笑。“我们与斗争之司辰承认你的力量与勇气；你的技巧与决意。”在场外，其他的长生者们带着敬意沉默地注视着。吾友几乎抑制不住他的笑容。杜弗尔看上去一脸钦佩。",
+        "description": "我与我的对手握手，他倾身在我耳边低语：“若你<i>得以</i>具名，你最好小心一点。我们之一或许会试着挑战你，就像你所做的那样。”他说这话的温暖语气不像是在威胁——更像是同事之间的承诺。“现在去吧，人之杀手。寻得你的命运。”"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+# 三刃使徒 Wiki · 本地使用与维护说明
+
+## 打开
+
+浏览器访问 http://localhost:8090/ 。需要先启动 Docker Desktop。
+
+## 内容范围
+
+- 蔑世使徒 / Apostle Contemnant：390 卡牌、368 行动、8 牌组、2 传承、7 结局、9 成就。
+- 破军使徒 / Apostle Proterant：279 卡牌、215 行动、4 牌组、2 传承、7 结局、9 成就。
+- 坚毅使徒 / Apostle Obdurant：712 卡牌、870 行动、24 牌组、6 自定义行动槽、2 传承、7 结局、10 成就。
+- 共 2,931 个内容实体，均有对应完整 JSON 原始数据页；1,381 个卡牌数据页和 1,453 个行动页。
+- 791 个 Mod 图片、封面与音频资源。
+- 6,172 个生成页面，包括导航、分类索引、220 个性相页、ID 索引与系统页面。
+
+## 管理
+
+账号 WikiAdmin；密码位于本目录 `.env` 的 WIKI_ADMIN_PASSWORD。该文件不应公开。
+
+## 更新 Mod 后
+
+在此目录运行：
+
+    pwsh -File tools/import-wiki.ps1 -WithMedia
+
+重建会覆盖同名生成页面的最新修订，历史仍可追溯；原始 Mod 只读，不会被修改。
+
+## 停止 / 备份
+
+    pwsh -File tools/wiki.ps1 -Action stop
+    pwsh -File tools/wiki.ps1 -Action backup
+
+备份数据库在 backups/。请同时备份 wiki/images/、config/、data/ 和 tools/。
+
+## 数据说明
+
+使用 Mod 自带 loc_zh-hans，缺翻译则保留英文；俄语文件不会覆盖简中。机制字段来自内容数据，本地化与机制数据的差异见项目:维护报告和 build/locale-overrides.json。
+
+“编者概述”为根据本地文本另行概括的内容，不是 Mod 原文。

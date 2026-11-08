@@ -1,0 +1,39 @@
+# 教程写作依据（从本地 Mod 与游戏本体读取）
+
+## 来源与范围
+蔑世使徒、破军使徒、坚毅使徒均围绕战争与刃之传承展开，部分机制共用。所有卡牌的性相、触发与行动条件以条目原始 JSON 为准。
+
+## 行动与流程
+侦察使用 recon；部分侦察明确要求 friend.scouts，并可通过 internaldeck 抽取机会、支线、地点等；uncover.enemy 有 revealidentity 标记。
+敌人策略由 decisions.enemy.* 牌组产生；enemy.executeaction 可额外启动 doubleattack、singleattack、destroysupplies、hide、infrastructure、cutoff、reinforcements 等分支。
+defend.opportunity 原文：[你仅能投入一张卡牌，且你需要达到敌军的任一阈值才能成功防御。]
+defend.edge 的要求为 needsedge=1 与 edge="needsedge"；defend.edgeheart 类推为 edge 和 heart 均按 needsedgeheart。存在空中、装甲、难以捉摸、韧性、致命、复合阈值等敌人标签，具体行为由相关配方决定。
+用于战斗的牌常有 fatiguing 标记，可能进入整备／枯竭变体。部分成功防御仍有伤亡或纷争的概率分支。
+linked 为后续链；alt 为满足条件的额外／替代分支，可能带 additional 与 chance。不能从单一 recipe 推断整个战斗的伤害公式。
+
+## 人物与招募
+communicate.namedally.intro 要求 friend、local、named.local 且不能有 associate，会赋予 associate。
+communicate.recruitsuccess 需要 vault.completed，有 recruiting 标记，并移除 mortal 上的 associate 和 local；完成文本：[这名友军现在将跟随你离开当前战区。]
+upgrade.namedally 需要 friend、不能 exhausted，并要求 experience.exile.ally=3；文本明确说“这将使你的盟友所有性相提升一级”。
+普通职能：侦察兵常带灯/蛾；步兵刃；医师心/杯；工兵铸/启；装甲铸/刃；炮兵刃；空军有 friend.aerial 与刃。具体行动可能禁用受伤、枯竭等状态。
+具名人物有个人任务 side.<名字> 与 side.<名字>.complete；不要把这些人物当作同质化的数值包。
+
+## 伤口、治疗与失败
+damage.body 与 damage.mind 是状态栏跟踪的身体／精神损伤。数据中的 deathtrigger、shellshocktrigger 在对应传承达到 5 时触发结局。不同传承的伤口与残疾有独立处理，不能把一切“受伤”视作永久消失。
+治疗可要求 friend.medics、provisions、工兵等；特殊盟友另有条件。成功后常见 restorehealth 标记。
+卡牌可能进入 wounded、exhausted、hidden、damaged 状态。状态变体可以有不同时限、性相、可用槽位；隐藏机制卡不是玩家收藏目标。
+
+## 补给与行军
+resupply.startup 在 days.resupply 条件下可产生 provisions=3，并说明未处战火摧残地区且未被切断补给线时可获得补给。
+resupply.startup.contemnant 可派友军或刃密传窃取车队，通常成功 chance=70，friend.hidden 有必定成功的专门分支。不是所有传承都使用此方式。
+部分新战区路线使用 internaldeck 抽取目的地，可能有远方过渡卡。特殊地点可禁止返回；阅读行动中的方括号提示。
+断补、野外住宿与恶劣环境可能让友军枯竭、负伤或损失经验，具体排除不朽友军等条件见配方。
+侦察和行军不同：前者寻找机会或情报，后者改变战区。
+
+## 密传与飞升
+密传卡的 xtriggers 可有 epiphany 升级与 fatiguing 整备。升级可能要求 remnant 等战斗收获，有多个槽位时须逐条查看。
+坚毅使徒的刃密传从 edge=2、lantern=1、winter=1 逐步提升；破军使徒同类密传从 edge=2、forge=1、heart=1 逐步提升。不同传承不应混为同一密传。
+高等级密传可提供 ascend.check 等标记。结局可能需要地点、关键物品、任务状态、身体状态与战役表现；最高密传不是必然最高结局。
+
+## 教程写作要求
+只写上述已证实内容，不增加未经证实的敌人名称、固定队伍人数或最优路线。攻略是建议，不是强制解法。引用精确阈值时说明属于某个具体敌人而非通用公式。不要重复原始 JSON；让读者知道应阅读行动页的槽位、禁止条件与结果。

@@ -1,0 +1,1991 @@
+{
+  "contemnant|attack.exile.pre": {
+    "id": "attack.exile.pre",
+    "actionid": "operate",
+    "label": "完美的一击？",
+    "startdescription": "我的所有狂怒、痛苦、与对报应的渴望——我需要将这一切灌注进接下来的关键一击当中。\n\n[你需要提供大量的刃以使这场豪赌的胜率不再为0。但你总有概率失败。]",
+    "requirements": {
+      "opening.exile": 3
+    },
+    "effects": {
+      "long.breakthrough.challenge": 1
+    },
+    "linked": [
+      {
+        "id": "attack.exile.continue"
+      }
+    ],
+    "craftable": true,
+    "_has_zh": true
+  },
+  "contemnant|attack.exile.continue": {
+    "id": "attack.exile.continue",
+    "label": "完美的一击？",
+    "startdescription": "我的所有狂怒、痛苦、与对报应的渴望——我需要将这一切灌注进接下来的关键一击当中。\n\n[你需要提供大量的刃以使这场豪赌的胜率不再为0。但你总有概率失败。]",
+    "slots": [
+      {
+        "id": "needssomething",
+        "required": {
+          "edge": 1,
+          "winter": 1,
+          "heart": 1,
+          "grail": 1,
+          "moth": 1,
+          "lantern": 1,
+          "forge": 1,
+          "knock": 1
+        }
+      },
+      {
+        "id": "needssomething2",
+        "required": {
+          "edge": 1,
+          "winter": 1,
+          "heart": 1,
+          "grail": 1,
+          "moth": 1,
+          "lantern": 1,
+          "forge": 1,
+          "knock": 1
+        }
+      },
+      {
+        "id": "needssomething3",
+        "required": {
+          "edge": 1,
+          "winter": 1,
+          "heart": 1,
+          "grail": 1,
+          "moth": 1,
+          "lantern": 1,
+          "forge": 1,
+          "knock": 1
+        }
+      }
+    ],
+    "warmup": 15,
+    "alt": [
+      {
+        "id": "attack.exile.success"
+      }
+    ],
+    "linked": [
+      {
+        "id": "attack.exile.failure"
+      }
+    ],
+    "_has_zh": true
+  },
+  "contemnant|attack.exile.success": {
+    "id": "attack.exile.success",
+    "label": "完美的一击？",
+    "startdescription": "当我突破流亡者的守御时，一阵燃烧的欢欣浪潮流遍我的全身。我想要撕下他的肉，品尝他的血，回报他细致地折磨我的每一个夜晚——",
+    "description": "即便用上了这一切，我仍然只能命中一击——但这一击足够深，足以让永生不死之人担忧。",
+    "requirements": {
+      "needsedge": 1,
+      "edge": "needsedge"
+    },
+    "aspects": {
+      "killfriend": 1,
+      "killmortal": 1,
+      "fatiguing": 1
+    },
+    "effects": {
+      "longwound.exile": 1,
+      "opening.exile": -2
+    },
+    "linked": [
+      {
+        "id": "attack.exile.failure",
+        "chance": 20
+      }
+    ],
+    "_has_zh": true
+  },
+  "contemnant|attack.exile.failure": {
+    "id": "attack.exile.failure",
+    "label": "我的攻击未达预期！",
+    "startdescription": "我的一击打在刃之长生者的身上就像子弹打在战舰上。“真不走运。”流亡者讥讽道。",
+    "aspects": {
+      "killmortal": 1,
+      "killfriend": 1,
+      "fatiguing": 1
+    },
+    "effects": {
+      "opening.exile": 1,
+      "longwound.exile": -99
+    },
+    "_has_zh": true
+  },
+  "contemnant|attack.foe.pre": {
+    "id": "attack.foe.pre",
+    "actionid": "operate",
+    "label": "完美的一击？",
+    "startdescription": "我的所有狂怒、痛苦、与对报应的渴望——我需要将这一切灌注进接下来的关键一击当中。\n\n[你需要提供大量的刃以使这场豪赌的胜率不再为0。但你总有概率失败。]",
+    "requirements": {
+      "opening.foe": 3
+    },
+    "effects": {
+      "long.breakthrough.challenge": 1
+    },
+    "linked": [
+      {
+        "id": "attack.foe.continue"
+      }
+    ],
+    "craftable": true,
+    "_has_zh": true
+  },
+  "contemnant|attack.foe.continue": {
+    "id": "attack.foe.continue",
+    "label": "完美的一击？",
+    "startdescription": "我的所有狂怒、痛苦、与对报应的渴望——我需要将这一切灌注进接下来的关键一击当中。\n\n[你需要提供大量的刃以使这场豪赌的胜率不再为0。但你总有概率失败。]",
+    "slots": [
+      {
+        "id": "needssomething",
+        "required": {
+          "edge": 1,
+          "winter": 1,
+          "heart": 1,
+          "grail": 1,
+          "moth": 1,
+          "lantern": 1,
+          "forge": 1,
+          "knock": 1
+        }
+      },
+      {
+        "id": "needssomething2",
+        "required": {
+          "edge": 1,
+          "winter": 1,
+          "heart": 1,
+          "grail": 1,
+          "moth": 1,
+          "lantern": 1,
+          "forge": 1,
+          "knock": 1
+        }
+      },
+      {
+        "id": "needssomething3",
+        "required": {
+          "edge": 1,
+          "winter": 1,
+          "heart": 1,
+          "grail": 1,
+          "moth": 1,
+          "lantern": 1,
+          "forge": 1,
+          "knock": 1
+        }
+      }
+    ],
+    "warmup": 15,
+    "alt": [
+      {
+        "id": "attack.foe.success"
+      }
+    ],
+    "linked": [
+      {
+        "id": "attack.foe.failure"
+      }
+    ],
+    "_has_zh": true
+  },
+  "contemnant|attack.foe.success": {
+    "id": "attack.foe.success",
+    "label": "完美的一击？",
+    "startdescription": "仿佛受到了神灵的启示那般，我找到了杜弗尔牢那不可破的防御的一个盲点。角度收敛，力量相合，我的手飞奔向前——",
+    "description": "即便用上了这一切，我仍然只能命中一击——但这一击足够深，足以让永生不死之人担忧。",
+    "requirements": {
+      "needsedge": 1,
+      "edge": "needsedge"
+    },
+    "aspects": {
+      "killfriend": 1,
+      "killmortal": 1,
+      "fatiguing": 1
+    },
+    "effects": {
+      "longwound.foe": 1,
+      "opening.foe": -2
+    },
+    "linked": [
+      {
+        "id": "attack.foe.failure",
+        "chance": 20
+      }
+    ],
+    "_has_zh": true
+  },
+  "contemnant|attack.foe.failure": {
+    "id": "attack.foe.failure",
+    "label": "我的攻击未达预期！",
+    "startdescription": "我的一击打在刃之长生者的身上就像子弹打在战舰上。“过于草率。”大敌嗤笑。",
+    "aspects": {
+      "killmortal": 1,
+      "killfriend": 1,
+      "fatiguing": 1
+    },
+    "effects": {
+      "opening.foe": -1,
+      "longwound.foe": -99
+    },
+    "_has_zh": true
+  },
+  "obdurant|produce.strife.contemnant": {
+    "id": "produce.strife.contemnant",
+    "actionid": "spit.edge",
+    "label": "抗争！",
+    "startdescription": "战斗招致战斗。纷争沸腾并重新开动，因此斗争将持续。",
+    "warmup": 10,
+    "effects": {
+      "strife": 1
+    },
+    "extantreqs": {
+      "contemnant.story": 1
+    },
+    "linked": [
+      {
+        "id": "vulneration.killrandom",
+        "chance": 70
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|attack.nodefense.nightmare": {
+    "id": "attack.nodefense.nightmare",
+    "label": "毫无防备！",
+    "startdescription": "我的大脑天旋地转。我的灵魂开始分裂。",
+    "requirements": {
+      "decision.enemy.attack": 1
+    },
+    "effects": {
+      "developing.trauma": 1
+    },
+    "extantreqs": {
+      "sobibor.here": 1
+    },
+    "aspects": {
+      "makeadditional": 1
+    },
+    "warmup": 10,
+    "_has_zh": true
+  },
+  "obdurant|attack.nodefense.exilenightmare": {
+    "id": "attack.nodefense.exilenightmare",
+    "label": "毫无防备！",
+    "startdescription": "那一整年份的折磨之痛如洪水般涌回；那一整年，流亡者将其痛苦与真实刻在了我的身上与我的体内。我的手希望将我那入梦的脑从颅中扯出，但我压制住了我的本能。还。不。行。",
+    "requirements": {
+      "decision.enemy.attack": 1,
+      "foe.exilenightmare": 1
+    },
+    "effects": {
+      "developing.permatrauma": 1
+    },
+    "extantreqs": {
+      "sobibor.here": 1
+    },
+    "aspects": {
+      "makeadditional": 1
+    },
+    "warmup": 10,
+    "_has_zh": true
+  },
+  "obdurant|enemy.executeaction": {
+    "id": "enemy.executeaction",
+    "label": "敌军行动了！",
+    "startdescription": "警报响起——我们的敌人开始行动了！",
+    "linked": [
+      {
+        "id": "enemy.clear"
+      }
+    ],
+    "alt": [
+      {
+        "id": "doubleattack.1.startup",
+        "additional": true
+      },
+      {
+        "id": "doubleattack.2.startup",
+        "additional": true
+      },
+      {
+        "id": "singleattack.startup",
+        "additional": true
+      },
+      {
+        "id": "destroysupplies.startup",
+        "additional": true
+      },
+      {
+        "id": "hide.startup",
+        "additional": true
+      },
+      {
+        "id": "infrastructure.startup",
+        "additional": true
+      },
+      {
+        "id": "cutoff.startup",
+        "additional": true
+      },
+      {
+        "id": "reinforcements.startup",
+        "additional": true
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.opportunity.ingluviate": {
+    "id": "defend.opportunity.ingluviate",
+    "label": "A Voracious Abomination!",
+    "startdescription": "The Grail-behemoth barrels forth! It's going to devour something, I can't stop that - but perhaps I could provide it something more tempting to eat.\n\n[Provide an Ally or any corpse to defend against the ingluviate. The card used to defend will be destroyed.]",
+    "requirements": {
+      "marker.ingluviate": 1
+    },
+    "slots": [
+      {
+        "id": "needsdefence",
+        "label": "Diversion?",
+        "required": {
+          "remnant": 1,
+          "friend": 1
+        }
+      }
+    ],
+    "linked": [
+      {
+        "id": "ingluviate.takecasket"
+      }
+    ],
+    "alt": [
+      {
+        "id": "defend.ingluviate.remnant"
+      },
+      {
+        "id": "defend.ingluviate.ally"
+      }
+    ],
+    "warmup": 30
+  },
+  "obdurant|defend.ingluviate.remnant": {
+    "id": "defend.ingluviate.remnant",
+    "label": "A Tantalising Diversion",
+    "startdescription": "The smell of rotting carcasses makes the ingluviate salivate horrendously. It turns course from the casket, drawn now to the morbid feast we have laid out for it -",
+    "description": "Devoured.",
+    "requirements": {
+      "remnant": 1
+    },
+    "aspects": {
+      "makeadditional": 1
+    },
+    "effects": {
+      "remnant": -99
+    }
+  },
+  "obdurant|defend.ingluviate.ally": {
+    "id": "defend.ingluviate.ally",
+    "label": "A Tantalising Diversion",
+    "startdescription": "The smell of fear - adrenaline, rushing blood, goosebumped flesh - makes the ingluviate salivate horrendously. It turns course from the casket, drawn now to the unfortunate feast we have laid out for it -",
+    "description": "Devoured.",
+    "requirements": {
+      "friend": 1
+    },
+    "aspects": {
+      "makeadditional": 1
+    },
+    "effects": {
+      "friend": -99
+    }
+  },
+  "obdurant|defend.opportunity": {
+    "id": "defend.opportunity",
+    "label": "进行防御",
+    "startdescription": "敌军迫近了——我们能够奋起抵抗他们吗？\n\n[你仅能投入一张卡牌，且你需要达到敌军的任一阈值才能成功防御。]",
+    "requirements": {
+      "foe": 1
+    },
+    "slots": [
+      {
+        "id": "needsresponse",
+        "label": "Defense",
+        "required": {
+          "edge": 1,
+          "winter": 1,
+          "heart": 1,
+          "grail": 1,
+          "moth": 1,
+          "lantern": 1,
+          "forge": 1,
+          "knock": 1
+        }
+      }
+    ],
+    "warmup": 30,
+    "linked": [
+      {
+        "id": "attack.nodefense.exilenightmare"
+      },
+      {
+        "id": "attack.nodefense.nightmare"
+      },
+      {
+        "id": "attack.nodefense.warder"
+      },
+      {
+        "id": "attack.nodefense.voice"
+      },
+      {
+        "id": "attack.nodefense.ostlingant"
+      },
+      {
+        "id": "attack.nodefense"
+      },
+      {
+        "id": "destroysupplies.nodefense"
+      },
+      {
+        "id": "infrastructure.nodefense"
+      }
+    ],
+    "alt": [
+      {
+        "id": "defend.skill.deflect"
+      },
+      {
+        "id": "defend.friend.immortal"
+      },
+      {
+        "id": "defend.aerial"
+      },
+      {
+        "id": "defend.ap"
+      },
+      {
+        "id": "defend.edge"
+      },
+      {
+        "id": "defend.winter"
+      },
+      {
+        "id": "defend.heart"
+      },
+      {
+        "id": "defend.grail"
+      },
+      {
+        "id": "defend.moth"
+      },
+      {
+        "id": "defend.lantern"
+      },
+      {
+        "id": "defend.forge"
+      },
+      {
+        "id": "defend.knock"
+      },
+      {
+        "id": "defend.forgemoth"
+      },
+      {
+        "id": "defend.edgelantern"
+      },
+      {
+        "id": "defend.edgewinter"
+      },
+      {
+        "id": "defend.edgeforge"
+      },
+      {
+        "id": "defend.knocklantern"
+      },
+      {
+        "id": "defend.edgeknock"
+      },
+      {
+        "id": "defend.edgeheart"
+      },
+      {
+        "id": "defend.edgegrail"
+      },
+      {
+        "id": "defend.edgemoth"
+      },
+      {
+        "id": "defend.winterheart"
+      },
+      {
+        "id": "defend.lanternheart"
+      }
+    ],
+    "id_2": "revealenemyidentity",
+    "_has_zh": true
+  },
+  "obdurant|defend.skill.deflect": {
+    "id": "defend.skill.deflect",
+    "label": "我之守御无可侵犯",
+    "startdescription": "我灵魂的中点与血肉的中点重合。我的伤疤即为装甲。我将不受创伤。",
+    "requirements": {
+      "skill.deflect": 1
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.friend.immortal": {
+    "id": "defend.friend.immortal",
+    "label": "永生不死的盟友",
+    "startdescription": "@#friend.sergei|挥下的带齿钢刃与践踏的马蹄逼退了敌军。食铁者大笑。#friend.gyrvaengr|这介壳种战士以利爪、锐刺、以及牢不可破的甲壳独立抵挡了敌军的推进，她致命的每个动作都带着古老记忆中的玄秘轻盈。@",
+    "requirements": {
+      "friend.immortal": 1
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.aerial": {
+    "id": "defend.aerial",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "foe.aerial": 1,
+      "friend.aerial": "foe.aerial"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.ap": {
+    "id": "defend.ap",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "foe.armoured": 1,
+      "ap": "foe.armoured"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.edge": {
+    "id": "defend.edge",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needsedge": 1,
+      "edge": "needsedge"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1,
+      "killflesheater": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.winter": {
+    "id": "defend.winter",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needswinter": 1,
+      "winter": "needswinter"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1,
+      "killflesheater": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.heart": {
+    "id": "defend.heart",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needsheart": 1,
+      "heart": "needsheart"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.grail": {
+    "id": "defend.grail",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needsgrail": 1,
+      "grail": "needsgrail"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.moth": {
+    "id": "defend.moth",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needsmoth": 1,
+      "moth": "needsmoth"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.lantern": {
+    "id": "defend.lantern",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needslantern": 1,
+      "lantern": "needslantern"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.forge": {
+    "id": "defend.forge",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needsforge": 1,
+      "forge": "needsforge"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.knock": {
+    "id": "defend.knock",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needsknock": 1,
+      "knock": "needsknock"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.forgemoth": {
+    "id": "defend.forgemoth",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needsforgemoth": 1,
+      "forge": "needsforgemoth",
+      "moth": "needsforgemoth"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.edgelantern": {
+    "id": "defend.edgelantern",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needsedgelantern": 1,
+      "edge": "needsedgelantern",
+      "lantern": "needsedgelantern"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.edgewinter": {
+    "id": "defend.edgewinter",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needsedgewinter": 1,
+      "edge": "needsedgewinter",
+      "winter": "needsedgewinter"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.edgeforge": {
+    "id": "defend.edgeforge",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needsedgeforge": 1,
+      "edge": "needsedgeforge",
+      "forge": "needsedgeforge"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.knocklantern": {
+    "id": "defend.knocklantern",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needsknocklantern": 1,
+      "knock": "needsknocklantern",
+      "lantern": "needsknocklantern"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.edgeknock": {
+    "id": "defend.edgeknock",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needsedgeknock": 1,
+      "edge": "needsedgeknock",
+      "knock": "needsedgeknock"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.edgeheart": {
+    "id": "defend.edgeheart",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needsedgeheart": 1,
+      "edge": "needsedgeheart",
+      "heart": "needsedgeheart"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.edgegrail": {
+    "id": "defend.edgegrail",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needsedgegrail": 1,
+      "edge": "needsedgegrail",
+      "grail": "needsedgegrail"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.edgemoth": {
+    "id": "defend.edgemoth",
+    "label": "成功的反击！",
+    "startdescription": "奋起，并战斗。",
+    "description": "这一次，敌军被击退了。",
+    "requirements": {
+      "needsedgemoth": 1,
+      "edge": "needsedgemoth",
+      "moth": "needsedgemoth"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|defend.winterheart": {
+    "id": "defend.winterheart",
+    "label": "Successful Counterattack!",
+    "startdescription": "Stand and fight.",
+    "description": "The enemy is driven back, this time.",
+    "requirements": {
+      "needswinterheart": 1,
+      "winter": "needswinterheart",
+      "heart": "needswinterheart"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ]
+  },
+  "obdurant|defend.lanternheart": {
+    "id": "defend.lanternheart",
+    "label": "Successful Counterattack!",
+    "startdescription": "Stand and fight.",
+    "description": "The enemy is driven back, this time.",
+    "requirements": {
+      "needslanternheart": 1,
+      "lantern": "needslanternheart",
+      "heart": "needslanternheart"
+    },
+    "aspects": {
+      "fatiguing": 1,
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "producecasualty",
+        "additional": true,
+        "chance": 30,
+        "expulsion": {
+          "limit": 1,
+          "filter": {
+            "friend": 1,
+            "neutral": 1
+          }
+        }
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      }
+    ],
+    "linked": [
+      {
+        "id": "foe.elusive.conceal"
+      }
+    ]
+  },
+  "obdurant|attack.nodefense.warder": {
+    "id": "attack.nodefense.warder",
+    "label": "被拉入危险的门关",
+    "startdescription": "那持钥者挥舞一串铁钥匙，并说出了尖锐的词句——大概是一句伐诃语，我想。而后空间弯折；色彩闪烁。世界的表皮在我友军的所在地分开，他们则一声不响地被拉入漫宿。",
+    "requirements": {
+      "foe.warder": 1
+    },
+    "extantreqs": {
+      "stasis.marker": -1
+    },
+    "aspects": {
+      "makeadditional": 1
+    },
+    "alt": [
+      {
+        "id": "warder.stasis.pre",
+        "additional": true
+      }
+    ],
+    "warmup": 10,
+    "_has_zh": true
+  },
+  "obdurant|attack.nodefense.voice": {
+    "id": "attack.nodefense.voice",
+    "label": "极乐低语",
+    "startdescription": "在黑暗中，她向着我们低语。噢，我们的双耳是多么习惯于聆听这低语，我们的神经是多么习惯于放松，我们开始遗忘——",
+    "requirements": {
+      "decision.enemy.attack": 1,
+      "foe.voice": 1
+    },
+    "aspects": {
+      "makeadditional": 1
+    },
+    "slots": [
+      {
+        "id": "needsclue",
+        "label": "Clue",
+        "required": {
+          "flock.clue": 1
+        },
+        "greedy": true
+      }
+    ],
+    "effects": {
+      "flock.clue": -1
+    },
+    "warmup": 10,
+    "_has_zh": true
+  },
+  "obdurant|attack.nodefense.ostlingant": {
+    "id": "attack.nodefense.ostlingant",
+    "label": "刺耳之歌",
+    "startdescription": "那噪音横穿荒野。我的视界开裂并发亮；我的双耳颤抖并流泪。且当寂静再次来临时，我的颅内仍回荡着这灾厄的鸟鸣……",
+    "requirements": {
+      "decision.enemy.attack": 1,
+      "foe.ostlingant": 1
+    },
+    "aspects": {
+      "makeadditional": 1
+    },
+    "effects": {
+      "trauma": 1
+    },
+    "warmup": 10,
+    "_has_zh": true
+  },
+  "obdurant|attack.nodefense": {
+    "id": "attack.nodefense",
+    "label": "毫无防备！",
+    "startdescription": "我们无法挤出在战场上面对敌人的力量。现在我们的软弱将遭到报应——",
+    "requirements": {
+      "decision.enemy.attack": 1
+    },
+    "slots": [
+      {
+        "id": "needsfriend",
+        "label": "Ally",
+        "required": {
+          "friend": 1
+        },
+        "forbidden": {
+          "remnant": 1,
+          "friend.hidden": 1
+        },
+        "greedy": true
+      }
+    ],
+    "linked": [
+      {
+        "id": "attack.nodefense.second",
+        "chance": 50
+      },
+      {
+        "id": "attack.conclude"
+      }
+    ],
+    "warmup": 10,
+    "_has_zh": true
+  },
+  "obdurant|attack.nodefense.second": {
+    "id": "attack.nodefense.second",
+    "label": "毫无防备！",
+    "startdescription": "我们无法挤出在战场上面对敌人的力量。现在我们的软弱将遭到报应——",
+    "slots": [
+      {
+        "id": "needsfriend",
+        "label": "Ally",
+        "required": {
+          "friend": 1
+        },
+        "forbidden": {
+          "remnant": 1,
+          "friend.hidden": 1
+        },
+        "greedy": true
+      }
+    ],
+    "linked": [
+      {
+        "id": "attack.conclude"
+      }
+    ],
+    "warmup": 10,
+    "_has_zh": true
+  },
+  "obdurant|attack.conclude": {
+    "id": "attack.conclude",
+    "label": "毫无防备！",
+    "startdescription": "血溅于空。我军出现了伤亡。",
+    "aspects": {
+      "makeadditional": 1,
+      "makecasualty": 1
+    },
+    "linked": [
+      {
+        "id": "friend.wrake.killed"
+      },
+      {
+        "id": "foe.elusive.conceal"
+      },
+      {
+        "id": "foe.lethal.kill"
+      }
+    ],
+    "alt": [
+      {
+        "id": "attack.conclude.growth"
+      },
+      {
+        "id": "produce.wounds",
+        "additional": true,
+        "chance": 50
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      },
+      {
+        "id": "produce.trauma",
+        "additional": true,
+        "chance": 40
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|attack.conclude.growth": {
+    "id": "attack.conclude.growth",
+    "label": "毫无防备！",
+    "startdescription": "血溅于空。我军出现了伤亡。",
+    "requirements": {
+      "foe.growth": 1
+    },
+    "aspects": {
+      "makeadditional": 1,
+      "killfriend": 1
+    },
+    "linked": [
+      {
+        "id": "attack.conclude.growth.continue"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|attack.conclude.growth.continue": {
+    "id": "attack.conclude.growth.continue",
+    "label": "绽放的憎恶",
+    "startdescription": "戴冠之孳的触碰承诺的不是死亡，而是生命。人们很快便学会畏惧这承诺。",
+    "requirements": {
+      "foe.growth": 1
+    },
+    "aspects": {
+      "growthinfect": 1
+    },
+    "alt": [
+      {
+        "id": "produce.wounds",
+        "additional": true,
+        "chance": 50
+      },
+      {
+        "id": "produce.strife",
+        "additional": true,
+        "chance": 65
+      },
+      {
+        "id": "produce.strife.contemnant",
+        "additional": true,
+        "chance": 50
+      },
+      {
+        "id": "produce.trauma",
+        "additional": true,
+        "chance": 40
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|foe.elusive.conceal": {
+    "id": "foe.elusive.conceal",
+    "label": "神出鬼没的敌人",
+    "startdescription": "战斗结束了，但我们的敌人设法消失在了硝烟与瓦砾中。真是狡猾。",
+    "requirements": {
+      "foe.elusive": 1
+    },
+    "aspects": {
+      "concealidentity": 1
+    },
+    "linked": [
+      {
+        "id": "exhaust.hiddenally"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|enemy.executeaction.targetsoviets.pre": {
+    "id": "enemy.executeaction.targetsoviets.pre",
+    "label": "敌军行动了！",
+    "startdescription": "警报响起——我们的敌人开始行动了！",
+    "tablereqs": {
+      "soviet": 1,
+      "german": 1
+    },
+    "effects": {
+      "decision": -99
+    },
+    "linked": [
+      {
+        "id": "enemy.executeaction.targetsoviets"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|enemy.executeaction.targetsoviets": {
+    "id": "enemy.executeaction.targetsoviets",
+    "label": "敌军行动了！",
+    "startdescription": "警报响起——我们的敌人开始行动了！",
+    "tablereqs": {
+      "soviet": 1,
+      "german": 1
+    },
+    "deckeffects": {
+      "decisions.enemy.targetsoviets.low": 1
+    },
+    "linked": [
+      {
+        "id": "enemy.executeaction.targetsoviets.continue"
+      }
+    ],
+    "alt": [
+      {
+        "id": "enemy.executeaction.targetsoviets.high"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|enemy.executeaction.targetsoviets.high": {
+    "id": "enemy.executeaction.targetsoviets.high",
+    "label": "敌军行动了！",
+    "startdescription": "警报响起——我们的敌人开始行动了！",
+    "tablereqs": {
+      "soviet": 1,
+      "german": 1
+    },
+    "extantreqs": {
+      "strife.tracker": 4
+    },
+    "deckeffects": {
+      "decisions.enemy.targetsoviets.high": 1
+    },
+    "linked": [
+      {
+        "id": "enemy.executeaction.targetsoviets.continue"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|enemy.executeaction.targetsoviets.continue": {
+    "id": "enemy.executeaction.targetsoviets.continue",
+    "label": "敌军行动了！",
+    "startdescription": "警报响起——我们的敌人开始行动了！",
+    "alt": [
+      {
+        "id": "enemy.targetsoviets.startup",
+        "additional": true
+      },
+      {
+        "id": "enemy.doubleattack.1.startup.againstsoviets",
+        "additional": true
+      },
+      {
+        "id": "enemy.doubleattack.2.startup.againstsoviets",
+        "additional": true
+      }
+    ],
+    "linked": [
+      {
+        "id": "enemy.clear"
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|produce.strife": {
+    "id": "produce.strife",
+    "actionid": "spit.edge",
+    "label": "抗争！",
+    "startdescription": "战斗招致战斗。纷争沸腾并重新开动，因此斗争将持续。",
+    "warmup": 10,
+    "effects": {
+      "strife": 1
+    },
+    "extantreqs": {
+      "contemnant.story": -1
+    },
+    "_has_zh": true
+  },
+  "obdurant|recon.bialystok.scouts": {
+    "id": "recon.bialystok.scouts",
+    "actionid": "recon",
+    "label": "在比亚韦斯托克侦察",
+    "startdescription": "测量战场。何处可寻得机会？何处存有敌人？",
+    "description": "我们找到了一些东西。",
+    "requirements": {
+      "friend.scouts": 1,
+      "bialystok.here": 1
+    },
+    "aspects": {
+      "fatiguing": 1
+    },
+    "warmup": 15,
+    "craftable": true,
+    "internaldeck": {
+      "spec": [
+        "op.ruins",
+        "op.ruins",
+        "op.sewers",
+        "op.time.sunset",
+        "op.time.night",
+        "op.madrugad",
+        "side.weaponscache",
+        "side.rescueallies"
+      ],
+      "draws": 1,
+      "resetonexhaustion": true
+    },
+    "alt": [
+      {
+        "id": "uncover.enemy",
+        "additional": true,
+        "chance": 40
+      },
+      {
+        "id": "find.side.camilla",
+        "additional": true,
+        "chance": 30
+      }
+    ],
+    "_has_zh": true
+  },
+  "obdurant|resupply.startup": {
+    "id": "resupply.startup",
+    "actionid": "resupply",
+    "label": "供应补给品",
+    "startdescription": "一支友军车队经过我们外围，携带着无价的货物：食物、饮水药物。或许货物中还夹杂着一两块巧克力。\n\n[只要你并非身处战火摧残的地区且并未被敌军切断补给线，你就会在愉快的日子得到更多补给品。]",
+    "requirements": {
+      "days.resupply": 1
+    },
+    "extantreqs": {
+      "contemnant.story": -1,
+      "wasteland": -1,
+      "side.cutoff": -1,
+      "lake.here": -1
+    },
+    "effects": {
+      "provisions": 3
+    },
+    "internaldeck": {
+      "spec": [
+        "provisions",
+        "provisions",
+        "provisions",
+        "husk",
+        "husk"
+      ],
+      "draws": 3,
+      "resetonexhaustion": true
+    },
+    "linked": [
+      {
+        "id": "resupply.givemodello"
+      },
+      {
+        "id": "resupply.giverifle"
+      }
+    ],
+    "warmup": 30,
+    "_has_zh": true
+  },
+  "obdurant|resupply.startup.contemnant": {
+    "id": "resupply.startup.contemnant",
+    "actionid": "resupply.yellow",
+    "label": "获取补给品?",
+    "startdescription": "一支补给车队经过我们外围，携带着无价的货物：食物、饮水、药物。其上的补给并非供应给我们——更可能是供应给俄军或德军——但这并不意味着我们不会不请自来。\n\n[派遣一位乐意如此的友军前去偷窃补给车队，以获取补给品。有时偷窃会失败，但派遣处于隐匿状态的友军则能够确保成功。若你想亲自前去，就使用你的刃密传。]",
+    "description": "我们中没有人能鼓起勇气进行盗窃。等着我们的只有更多挨饿的日子。",
+    "requirements": {
+      "days.resupply": 1
+    },
+    "extantreqs": {
+      "contemnant.story": 1,
+      "warzone.current": 1,
+      "wasteland": -1,
+      "side.cutoff": -1,
+      "lake.here": -1,
+      "sobibor.here": -1
+    },
+    "slots": [
+      {
+        "id": "needsally",
+        "label": "Ally",
+        "required": {
+          "friend": 1,
+          "lore": 1
+        },
+        "forbidden": {
+          "exhausted": 1,
+          "wounded": 1,
+          "damaged": 1,
+          "remnant": 1,
+          "hired": 1
+        }
+      }
+    ],
+    "warmup": 30,
+    "alt": [
+      {
+        "id": "resupply.contemnant.allygiven"
+      },
+      {
+        "id": "resupply.contemnant.loregiven"
+      }
+    ],
+    "_has_zh": true
+  }
+}
